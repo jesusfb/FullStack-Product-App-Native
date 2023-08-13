@@ -5,4 +5,5 @@ RUN npm install
 COPY . .
 EXPOSE 3001
 ENTRYPOINT [ "npm", "run" ]
+CMD [ "build" ]
 CMD [ "start" ]
